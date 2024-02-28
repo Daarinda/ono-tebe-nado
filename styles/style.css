@@ -1,1 +1,69 @@
 /* место для вашего кода */
+.body{
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.header{
+    display:grid; 
+    grid-template-columns: 1fr min-content 1fr;
+    background-color: white;
+    padding: 92px 24px 96px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    width: 1052px;
+    margin: auto;
+}
+
+.header_menu{
+    display: flex;
+    font-family: Raleway, serif;
+    font-size: 18px;
+}
+
+.header_link{
+    text-decoration: underline;
+}
+
+.header__links-list{
+    display: flex;
+    margin-top: 44px;
+}
+
+.header__links-list-item{
+   list-style-type: circle;
+   margin-left: 35px;
+}
+
+.header__links-list-item_no-bullit{
+   list-style: none;  
+}
+
+.address {
+    justify-self: end;
+    line-height: 24.3px;
+    padding-right: 40px;
+    align-self: center;
+}
+
+.header_logo-image{
+    height: 105px;
+    width: 148px;
+    justify-self: center;
+}
+
+.address a{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.cover{
+    height: 757px;
+    background-image: url(/images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+}
